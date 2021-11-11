@@ -21,22 +21,22 @@ function App() {
   }
 
   const handleSubmitClick = () => {
-    if (name.length == 0) {
+    if (name.length === 0) {
       alert("Error : Name is required field");
     }
     else if (!(/^[a-zA-Z]+$/.test(name))) {
       alert("Error : Name only accepts character");
     }
-    else if (email.length == 0) {
+    else if (email.length === 0) {
       alert("Error : Email is required field");
     }
     else if (!validateEmail(email)) {
       alert("Error : Invalid Email format");
     }
-    else if (company.length == 0) {
+    else if (company.length === 0) {
       alert("Error : Company is required field");
     }
-    else if (message.length == 0) {
+    else if (message.length === 0) {
       alert("Error : Message is required field");
     }
     else if (message.length < 20) {
