@@ -1,0 +1,71 @@
+.App {
+  padding: 50px;
+  background-color: #eee;
+}
+
+.get{
+  font-size: 24px;
+}
+
+.send{
+  font-size: 30px;
+}
+
+.red-underline{
+  border: 1px solid #ec1c24;
+  background-color: #ec1c24;
+  height: 5px;
+  width: 40px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.form-field{
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.textArea{
+  padding: 10px;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 18px;
+  resize: vertical;
+  min-height: 20px;
+}
+
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  width: 100%;
+}
+
+.button{
+  border: 1px solid #ec1c24;
+  border-radius: 40px;
+  color: #ec1c24;
+  font-size: large;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.button:hover{
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1450px) {
+  .checkbox-text {
+    position: relative;
+    left:-50px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .right-screen {
+    margin-top: 100px;
+  }
+}
